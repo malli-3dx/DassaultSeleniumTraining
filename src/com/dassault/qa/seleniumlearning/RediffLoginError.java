@@ -30,9 +30,9 @@ public class RediffLoginError {
 			driver.findElement(By.id("remember")).click();
 		}
 		
-		driver.findElement(By.name("proceed")).click();
+		//driver.findElement(By.name("proceed")).click();
 		
-		//driver.findElement(By.id("login1")).submit();
+		driver.findElement(By.id("login1")).submit();
 		
 		String expected = "Wrong username and password combination.";
 		

@@ -31,8 +31,6 @@ public class LocatorExample {
 		
 		driver.findElement(By.partialLinkText("Learn Selenium in 1 Day")).click();
 		
-		
-
 	}
 
 }
