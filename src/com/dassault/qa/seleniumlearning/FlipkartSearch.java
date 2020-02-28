@@ -6,15 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class FlipkartSearch {
+public class FlipkartSearch extends Base{
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/ameya/Tools/Selenium/chromedriver");
-		
-		WebDriver driver = new ChromeDriver();
-		
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		new Base();
 		
 		driver.get("https://www.flipkart.com");
 		
